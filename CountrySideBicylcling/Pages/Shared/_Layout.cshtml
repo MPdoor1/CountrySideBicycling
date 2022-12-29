@@ -7,42 +7,32 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/CountrySideBicylcling.styles.css" asp-append-version="true" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap">
 </head>
 <body>
     <header>
-    
-            @*Navbar*@
-            <nav class="nav" id="navbarContainer">
-                <div class="container ">
+    <nav id="navbar">
+        <ul>
+            <li><a class="navLink" asp-page="/index">Home</a></li>
+            <li><a class="navLink" asp-page="/about">About</a></li>
+            <li><a class="navLink"  asp-page="/bikes">Bikes</a></li>
+            <li><a class="navLink"  asp-page="/scooters">Scooters</a></li>
+            <li><a class="navLink"  asp-page="/repairs">Repairs</a></li>
+            <li><a class="navLink"  asp-page="/contact">Contact</a></li>
+        </ul>
+@*            Bikes: brands
 
-                    @*Navbar Items*@
-                    <ul class="nav justify-content-center flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-page="/Index">Contact</a>
-                    </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Brands</a>
-                            <ul class="dropdown-menu fade-up">
-                                <li><a class="dropdown-item" asp-page="/Music"> Music</a></li>
-                                <li>
-                                    <a class="dropdown-item" href="
-https://discord.gg/6ZVudKeK2v">Discord</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="https://www.twitch.tv/mpdoor
-">Twitch</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" asp-page="/Youtube">Youtube</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            Contact-hours and location
+
+            Home-Services
+
+            Repairs
+
+            Content-trails, tour around shop, and image&video*@
+    </nav>
+       
+
     </header>
     <div>
         <main role="main" class="pb-3">
