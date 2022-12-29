@@ -1,10 +1,10 @@
-/*General*/
+/* GENERAL */
 :root {
-    --outlineColor: transparent; /*#00ff21*/
+    --outlineColor: #00ff21; /*#00ff21*/
     --sectionHeight: 450px;
     --tanGold: #a1880c;
     --darkGreen: #163908;
-    --darkGrey: #9b938a;
+    --darkGrey: #43464B;
     --lightGrey: #d3d3d3;
 }
 
@@ -19,13 +19,13 @@ body {
     background-color: var(--tanWhite);
 }
 
-/*Navbar*/
+/* NAVBAR */
 #navbar {
     background-color: transparent;
     width: 100%;
     height: 100px;
     position: fixed;
-    outline: 2px var(--outlineColor);
+    outline: 2px solid var(--outlineColor);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,11 +37,11 @@ ul {
     margin: 0;
     padding: 0;
     text-align: center;
-    outline:  2px var(--outlineColor);
+    outline: 2px solid var(--outlineColor);
 }
 
 li {
-/*    background-color: #ebebeb;
+/*  background-color: #ebebeb;
     border-radius: 5px;*/
     display: inline-block;
     margin: 0 30px;
@@ -53,28 +53,29 @@ nav a {
     color: var(--darkGreen);
     font-size: 20px;
     text-decoration: none;
+    transition: color 0.2s ease-in-out;
 }
 
     nav a:hover {
         color: var(--tanGold);
         text-decoration: none;
     }
-/*INDEX PAGE*/
-/*SECTION ONE*/
+/* INDEX PAGE */
+/* SECTION ONE */
 #sectionOneContainer {
     height: var(--sectionHeight);
     width: 100%;
     background-image: url('/images/RoadBike.jpg');
     background-size: cover;
     background-attachment: fixed;
-    outline: 2px var(--outlineColor);
+    outline: 2px solid var(--outlineColor);
 }
 
 #sectOneHeadCont {
     display: flex;
     align-items: center;
     margin: auto;
-    outline: 2px var(--outlineColor);
+    outline: 2px solid var(--outlineColor);
 }
 
 #sectOneHead {
@@ -84,15 +85,39 @@ nav a {
     display: flex;
     align-items: center;
     margin: auto;
-    outline: 2px var(--outlineColor);
+    outline: 2px solid var(--outlineColor);
 }
 
-/*Footer*/
-#pageFooter {
-    background-color: var(--darkBlue);
-    color: var(--lightestBlue);
-    outline: 2px var(--outlineColor);
+/* SECTION TWO */
+
+#sectionTwoContainer {
+    height: var(--sectionHeight);
+    width: 100%;
+    outline: 2px solid var(--outlineColor);
+
 }
+#sectTwoHeadCont {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    outline: 2px solid var(--outlineColor);
+}
+
+#sectTwoHead {
+    outline: 2px solid var(--outlineColor);
+}
+
+#sloganHeader {
+    outline: 2px solid var(--outlineColor);
+}
+/*Footer*/
+#footer{
+    background-color: var(--darkGrey);
+}
+
 /*Different Size Display*/
 @media (min-width: 768px) {
     html {
