@@ -1,0 +1,127 @@
+/*General*/
+:root {
+    --darkestGrey: #343631;
+    --lightBrown: #926f47;
+    --darkBlue: #366a82;
+    --lightBlue: #89d0ee;
+    --lightestBlue: #ddf3fe;
+    --tanWhite: #fefbf6;
+    --outlineColor: transparent; /*#00ff21*/
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-size: 14px;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: var(--tanWhite);
+}
+
+/*Navbar*/
+#navbar   {
+    outline: 2px dashed var(--outlineColor);
+}
+
+a.nav-link:link {
+    color: var(--darkestGrey);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a.nav-link:visited {
+    color: var(--darkestGrey);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a.nav-link:hover {
+    color: var(--darkBlue);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a.nav-link:active {
+    color: var(--darkBlue);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.nav-item {
+    font-size: 22px;
+    font-family: "Times New Roman";
+}
+
+/*Dropdown NavItem*/
+.nav-link.dropdown-toggle {
+    color: var(--darkestGrey);
+    color: var(--darkestGrey);
+}
+
+a.dropdown {
+    color: var(--darkestGrey);
+    color: var(--darkestGrey);
+}
+
+.nav-item .dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    margin-top: 0;
+    color: var(--darkestGrey);
+}
+
+.dropdown-menu.fade-down {
+    top: 80%;
+    transform: rotateX(-75deg);
+    transform-origin: 0% 0%;
+    color: var(--darkestGrey);
+}
+
+.dropdown-menu.fade-up {
+    top: 180%;
+    color: var(--darkestGrey);
+}
+
+.nav-item:hover .dropdown-menu {
+    color: var(--darkestGrey);
+    transition: .3s;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transform: rotateX(0deg);
+}
+
+/*INDEX PAGE*/
+
+/*SECTION ONE*/
+#sectionOneContainer {
+    height: 1000px;
+    width: 100%;
+    background-image: url('/images/BikeOnTrail.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#sectOneHeadCont{
+
+}
+
+#sectOneHead{
+
+}
+
+/*Footer*/
+#pageFooter {
+    background-color: var(--darkBlue);
+    color: var(--lightestBlue);
+}
+/*Different Size Display*/
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
