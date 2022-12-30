@@ -1,6 +1,6 @@
 /* GENERAL */
 :root {
-    --outlineColor: #00ff21; /*#00ff21*/
+    --outlineColor: transparent; /*#00ff21*/
     --sectionHeight: 450px;
     --tanGold: #a1880c;
     --darkGreen: #163908;
@@ -60,6 +60,82 @@ nav a {
         color: var(--tanGold);
         text-decoration: none;
     }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* The titles for the dropdowns on the navbar*/
+
+#scooterNavTitle {
+    font-family: 'Cinzel', serif;
+    color: var(--darkGreen);
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+    #scooterNavTitle:hover {
+        color: var(--tanGold);
+        text-decoration: none;
+    }
+
+#bikeNavTitle {
+    font-family: 'Cinzel', serif;
+    color: var(--darkGreen);
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+    #bikeNavTitle:hover {
+        color: var(--tanGold);
+        text-decoration: none;
+    }
+
+.dropdown-content .navLink {
+    font-family: 'Cinzel', serif;
+    color: var(--darkGreen);
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+    .dropdown-content .navLink:hover {
+        color: var(--tanGold);
+        text-decoration: none;
+    }
+
 /* INDEX PAGE */
 /* SECTION ONE */
 #sectionOneContainer {
