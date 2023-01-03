@@ -163,15 +163,15 @@ nav a {
     margin: auto;
     outline: 2px solid var(--outlineColor);
 }
-
 /* SECTION TWO */
 
 #sectionTwoContainer {
     height: var(--sectionHeight);
     width: 100%;
+    margin: auto;
     outline: 2px solid var(--outlineColor);
-
 }
+
 #sectTwoHeadCont {
     width: 100%;
     display: flex;
@@ -187,6 +187,40 @@ nav a {
 }
 
 #sloganHeader {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    outline: 2px solid var(--outlineColor);
+}
+
+#sectionTwoBody {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    outline: 2px solid var(--outlineColor);
+}
+
+#bodySectOne {
+    width: 33%;
+    outline: 2px solid var(--outlineColor);
+}
+
+#bodySectTwo {
+    width: 33%;
+    outline: 2px solid var(--outlineColor);
+}
+
+#serviceList {
+    text-align: left;
+    margin: auto;
+    outline: 2px solid var(--outlineColor);
+}
+
+.serviceItem {
+    height: 50px;
     outline: 2px solid var(--outlineColor);
 }
 /*Footer*/
