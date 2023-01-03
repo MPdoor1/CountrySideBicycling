@@ -16,13 +16,15 @@
 
         <ul>
             <li><a class="navLink" asp-page="/Index">Home</a></li>
-            <li><a class="navLink" asp-page="/About">About</a></li>
             <li class="dropdown">
                 <a id="bikeNavTitle">Bikes</a>
                 <div class="dropdown-content">
-                        <a class="navLink" asp-page="/bikes">Bikes</a>
-                        <a class="navLink" asp-page="/bikes">Bikes</a>
-                        <a class="navLink" asp-page="/bikes">Bikes</a>
+                        <a class="navLink" asp-page="/bikes/BMX">BMX</a>
+                        <a class="navLink" asp-page="/bikes/Electric">Electric</a>
+                        <a class="navLink" asp-page="/bikes/Hybrid">Hybrid</a>
+                        <a class="navLink" asp-page="/bikes/Mountain">Mountain</a>
+                        <a class="navLink" asp-page="/bikes/Road">Road</a>
+                        <a class="navLink" asp-page="/bikes/Specialty">Specialty</a>
                 </div>
             </li>
             <li class="dropdown">
@@ -34,6 +36,7 @@
                 </div>
             </li>
             <li><a class="navLink" asp-page="/Repairs">Repairs</a></li>
+            <li><a class="navLink" asp-page="/Shop">Shop</a></li>
             <li><a class="navLink" asp-page="/Contact">Contact</a></li>
         </ul>
 @*            Bikes: brands
