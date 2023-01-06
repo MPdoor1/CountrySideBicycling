@@ -21,9 +21,10 @@ body {
 
 /* NAVBAR */
 #navbar {
-    background-color: transparent;
+    background-color: var(--lightGrey);
     width: 100%;
-    height: 100px;
+    height: 80px;
+    opacity: 90%;
     position: fixed;
     outline: 2px solid var(--outlineColor);
     display: flex;
@@ -177,12 +178,12 @@ nav a {
     display: flex;
     align-items: center;
     margin: auto;
-    align-items: center;
     justify-content: center;
     outline: 2px solid var(--outlineColor);
 }
 
 #sectTwoHead {
+    font-size: 36px;
     outline: 2px solid var(--outlineColor);
 }
 
@@ -220,6 +221,7 @@ nav a {
 }
 
 .serviceItem {
+    font-size: 18px;
     height: 50px;
     outline: 2px solid var(--outlineColor);
 }
