@@ -2,72 +2,143 @@
 @model CountrySideBicylcling.Pages.ShopModel
 @{
 }
-<div style="height:150px;"></div>
+<div style="height:100px;"></div>
+
+@*RIDER GEAR*@
 
 <div id="RiderGearContainer">
-    <div id="sectTwoHeadCont">
-        <h3 id="sectTwoHead">Rider Gear</h3>
+    <div class="headCont">
+        <h3 class="head">Rider Gear</h3>
     </div>
     @*<hr width="66%;" align="center">*@
     <div style="height:25px;"></div>
     <div id="RiderGearBody">
         <div id="RiderGearBodySectTwo">
-            <h3 id="GearTwoHead">Accesories</h3>
-            <ul id="serviceList">
-                <li class="serviceItem">Helmet</li>
-                <li class="serviceItem">Gloves</li>
-                <li class="serviceItem">Jerseys</li>
-                <li class="serviceItem">Vests</li>
-                <li class="serviceItem">Socks</li>
-                <li class="serviceItem">Kneepads</li>
-                <li class="serviceItem">Elbowpads</li>
-                <li class="serviceItem">Arm Coolers</li>
-                <li class="serviceItem">Arm Warmers</li>
-                <li class="serviceItem">Headbands</li>
-                <li class="serviceItem">Helmet Covers</li>
-                <li class="serviceItem">Leg Bands</li>
-                <li class="serviceItem">Leg warmer</li>
-                <li class="serviceItem">Leg Coolers</li>
-                <li class="serviceItem">Outerwear</li>
-                <li class="serviceItem">Reflective Gear</li>
-                <li class="serviceItem">Shorts</li>
-                <li class="serviceItem">Socks</li>
-                <li class="serviceItem">T-Shirts</li>
-            </ul>
+            <h3 class="shopHead">Accesories</h3>
+
+            <div class="shopList">
+                <ul class="list">
+                    <li class="item">Helmet</li>
+                    <li class="item">Gloves</li>
+                    <li class="item">Jerseys</li>
+                    <li class="item">Vests</li>
+                    <li class="item">Socks</li>
+                    <li class="item">T-Shirts</li>
+                </ul>
+            </div>
+            <div class="shopList">
+                <ul class="list">
+                    <li class="item">Kneepads</li>
+                    <li class="item">Elbowpads</li>
+                    <li class="item">Arm Coolers</li>
+                    <li class="item">Arm Warmers</li>
+                    <li class="item">Headbands</li>
+                    <li class="item">Shorts</li>
+                </ul>
+            </div>
+            <div class="shopList">
+                <ul class="list">
+                    <li class="item">Helmet Covers</li>
+                    <li class="item">Leg Bands</li>
+                    <li class="item">Leg warmers</li>
+                    <li class="item">Outerwear</li>
+                    <li class="item">Socks</li>
+                    <li class="item">Reflective Gear</li>
+                </ul>
+            </div>
+
             @*<p>  Helmet, Gloves, Jerseys, Vests, Socks, kneepads, elbowpads, Arm Coolers, Arm Warmers, Headbands, helmet covers, led bands, leg warmer, leg coolers, outerwear, reflective gear, shorts, socks, T-shirts</p>*@
         </div>
     </div>
 </div>
 
-<div id="sectionTwoContainer">
-    <div id="sectTwoHeadCont">
-        <h3 id="sectTwoHead">Bikes</h3>
+@*BIKES*@
+
+<div id="bikesContainer">
+    <div class="headCont">
+        <h3 class="head">Bikes</h3>
     </div>
     <div style="height:25px;"></div>
-    <div id="sectionTwoBody">
-        <div id="bodySectOne">
-            <p><U>Parts:</U> Tubes, Lubes, bearings, handbars, shifters, cables, seats, chains, seat-posts, rims, tires, wheels, spokes, bottom brackets, peddals, cranks, stems, forks, shocks, batteries, brakepads</p>
-        </div>
-        <div id="bodySectTwo">
-            <div id="bodySectTwo">
-                <p><u>Accesories:</u> Saddle bags, lights, reflectors, stickers, bar raps, bar racks, fenders</p>
+    <div class="sectBody">
+
+        <div class="sectOne">
+            @*Tubes, Lubes, bearings, handbars, shifters, cables, seats, chains, seat-posts, rims, tires, wheels, spokes, bottom brackets, peddals, cranks, stems, forks, shocks, batteries, brakepads*@
+            <h3 class="shopHead">Parts:</h3>
+
+            <div class="shopList">
+                <ul class="list">
+                    <li class="item">Tubes</li>
+                    <li class="item">Lubes</li>
+                    <li class="item">bearings</li>
+                    <li class="item"> handbars</li>
+                    <li class="item">shifters</li>
+                    <li class="item">cables</li>
+                    <li class="item">batteries</li>
+                </ul>
+            </div>
+            <div class="shopList">
+                <ul class="list">
+                    <li class="item">seats</li>
+                    <li class="item">chains</li>
+                    <li class="item">seat-posts</li>
+                    <li class="item">rims</li>
+                    <li class="item">tires</li>
+                    <li class="item">wheels</li>
+                    <li class="item">brakepads</li>
+                </ul>
+            </div>
+            <div class="shopList">
+                <ul class="list">
+                    <li class="item">spokes</li>
+                    <li class="item">brackets</li>
+                    <li class="item">peddals</li>
+                    <li class="item">cranks</li>
+                    <li class="item">stems</li>
+                    <li class="item">forks</li>
+                    <li class="item">shocks</li>
+                </ul>
             </div>
         </div>
+
+        <div class="sectTwo">
+            @*Saddle bags, lights, reflectors, stickers, bar raps, bar racks, fenders*@
+
+            <h3 id="GearTwoHead">Accessories:</h3>
+            <div class="shopList2">
+                <ul class="list">
+                    <li class="accessoryItem">Saddle bags</li>
+                    <li class="accessoryItem">lights</li>
+                    <li class="accessoryItem">bearings</li>
+                    <li class="accessoryItem">reflectors</li>
+                </ul>
+            </div>
+            <div class="shopList2">
+                <ul class="list">
+                    <li class="accessoryItem">stickers</li>
+                    <li class="accessoryItem">bar raps</li>
+                    <li class="accessoryItem">bar racks</li>
+                    <li class="accessoryItem">fenders</li>
+                </ul>
+            </div>
+
+        </div>
+
     </div>
 </div>
 
+@*SCOOTER*@
 
-<div id="sectionTwoContainer">
-    <div id="sectTwoHeadCont">
-        <h3 id="sectTwoHead">Scooters</h3>
+<div id="scooterContainer">
+    <div class="headCont">
+        <h3 class="head">Scooters</h3>
     </div>
     <div style="height:25px;"></div>
-    <div id="sectionTwoBody">
-        <div id="bodySectOne">
+    <div class="sectBody">
+        <div class="sectOne">
             <p><U>Parts:</U> Tubes, Lubes, bearings, handbars, cables, rims, tires, wheels, spokes, stems, forks, shocks, batteries, brakepads, breaks</p>
         </div>
-        <div id="bodySectTwo">
-            <div id="bodySectTwo">
+        <div class="sectTwo">
+            <div class="sectTwo">
                 <p><u>Accesories:</u> Saddles, lights, reflectors, stickers, bar raps, bar racks, fenders</p>
             </div>
         </div>

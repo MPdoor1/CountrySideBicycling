@@ -1,6 +1,6 @@
 /* GENERAL */
 :root {
-    --outlineColor: transparent; /*#00ff21*/
+    --outlineColor: #00ff21; /*#00ff21*/
     --sectionHeight: 450px;
     --tanGold: #a1880c;
     --darkGreen: #163908;
@@ -17,6 +17,52 @@ html {
 body {
     margin-bottom: 60px;
     background-color: var(--tanWhite);
+}
+
+.list {
+    text-align: center;
+    margin: auto;
+    outline: 2px solid var(--outlineColor);
+}
+
+.item {
+    font-size: 18px;
+    height: 36px;
+    width: 100%;
+    margin: auto;
+    outline: 2px solid var(--outlineColor);
+}
+
+.sectOne {
+    width: 33%;
+    outline: 2px solid var(--outlineColor);
+}
+
+.sectTwo {
+    width: 33%;
+    outline: 2px solid var(--outlineColor);
+}
+
+.headCont {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    outline: 2px solid var(--outlineColor);
+}
+
+.head {
+    font-size: 36px;
+    outline: 2px solid var(--outlineColor);
+}
+
+.sectBody {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    outline: 2px solid var(--outlineColor);
 }
 
 /* NAVBAR */
@@ -42,7 +88,7 @@ ul {
 }
 
 li {
-/*  background-color: #ebebeb;
+    /*  background-color: #ebebeb;
     border-radius: 5px;*/
     display: inline-block;
     margin: 0 30px;
@@ -108,6 +154,7 @@ nav a {
     text-decoration: none;
     transition: color 0.2s ease-in-out;
 }
+
     #scooterNavTitle:hover {
         color: var(--tanGold);
         text-decoration: none;
@@ -120,6 +167,7 @@ nav a {
     text-decoration: none;
     transition: color 0.2s ease-in-out;
 }
+
     #bikeNavTitle:hover {
         color: var(--tanGold);
         text-decoration: none;
@@ -132,6 +180,7 @@ nav a {
     text-decoration: none;
     transition: color 0.2s ease-in-out;
 }
+
     .dropdown-content .navLink:hover {
         color: var(--tanGold);
         text-decoration: none;
@@ -164,26 +213,12 @@ nav a {
     margin: auto;
     outline: 2px solid var(--outlineColor);
 }
-/* SECTION TWO */
 
+/* SECTION TWO */
 #sectionTwoContainer {
     height: var(--sectionHeight);
     width: 100%;
     margin: auto;
-    outline: 2px solid var(--outlineColor);
-}
-
-#sectTwoHeadCont {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    margin: auto;
-    justify-content: center;
-    outline: 2px solid var(--outlineColor);
-}
-
-#sectTwoHead {
-    font-size: 36px;
     outline: 2px solid var(--outlineColor);
 }
 
@@ -204,25 +239,33 @@ nav a {
     outline: 2px solid var(--outlineColor);
 }
 
-#bodySectOne {
-    width: 33%;
-    outline: 2px solid var(--outlineColor);
-}
-
-#bodySectTwo {
-    width: 33%;
-    outline: 2px solid var(--outlineColor);
-}
-
-#serviceList {
-    text-align: left;
+/*SECTION THREE*/
+#sectionThreeContainer {
+    height: var(--sectionHeight);
+    width: 100%;
     margin: auto;
     outline: 2px solid var(--outlineColor);
 }
 
-.serviceItem {
-    font-size: 18px;
-    height: 50px;
+#sectThreeHeadCont {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    outline: 2px solid var(--outlineColor);
+}
+
+#sectThreeHead {
+    font-size: 36px;
+    outline: 2px solid var(--outlineColor);
+}
+
+#sectionThreeBody {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
     outline: 2px solid var(--outlineColor);
 }
 
@@ -245,7 +288,7 @@ nav a {
 }
 
 #RiderGearBody {
-    text-align:center;
+    text-align: center;
     display: flex;
     margin: auto;
     align-items: center;
@@ -257,10 +300,44 @@ nav a {
     width: 66%;
     outline: 2px solid var(--outlineColor);
 }
-#gearTwoHead {
+
+.shopHead {
     font-size: 24px;
     outline: 2px solid var(--outlineColor);
 }
+
+.shopList {
+    width: 32%;
+    display: inline-block;
+}
+
+.shopList2 {
+    width: 49%;
+    display: inline-block;
+}
+
+.accessoryItem {
+    font-size: 18px;
+    height: 36px;
+    width: 100%;
+    margin: auto;
+    outline: 2px solid var(--outlineColor);
+}
+
+#bikesContainer {
+    height: 350px;
+    width: 100%;
+    margin: auto;
+    outline: 2px solid var(--outlineColor);
+}
+
+#scooterContainer {
+    height: 350px;
+    width: 100%;
+    margin: auto;
+    outline: 2px solid var(--outlineColor);
+}
+
 /*Footer*/
 #footer {
     background-color: var(--darkGrey);
