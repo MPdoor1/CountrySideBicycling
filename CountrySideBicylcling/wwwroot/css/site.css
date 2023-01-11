@@ -81,7 +81,8 @@ body {
 
 ul {
     list-style: none;
-    margin: 0;
+    margin: 0px;
+    width: 100%;
     padding: 0;
     text-align: center;
     outline: 2px solid var(--outlineColor);
@@ -91,7 +92,7 @@ li {
     /*  background-color: #ebebeb;
     border-radius: 5px;*/
     display: inline-block;
-    margin: 0 30px;
+    margin: 10px 1.5%;
     border: 2px solid var(--outlineColor);
 }
 
@@ -344,8 +345,48 @@ nav a {
 }
 
 /*Different Size Display*/
-@media (min-width: 768px) {
-    html {
-        font-size: 16px;
+@media (max-width: 600px) {
+
+
+    nav a {
+        font-family: 'Cinzel', serif;
+        color: var(--darkGreen);
+        font-size: 12px;
+        text-decoration: none;
+        transition: color 0.2s ease-in-out;
+    }
+
+    #scooterNavTitle {
+        font-family: 'Cinzel', serif;
+        color: var(--darkGreen);
+        font-size: 12px;
+        text-decoration: none;
+        transition: color 0.2s ease-in-out;
+    }
+
+        #scooterNavTitle:hover {
+            color: var(--tanGold);
+            text-decoration: none;
+        }
+
+    #bikeNavTitle {
+        font-family: 'Cinzel', serif;
+        color: var(--darkGreen);
+        font-size: 12px;
+        text-decoration: none;
+        transition: color 0.2s ease-in-out;
+    }
+
+        #bikeNavTitle:hover {
+            color: var(--tanGold);
+            text-decoration: none;
+        }
+
+    li {
+        /*  background-color: #ebebeb;
+    border-radius: 5px;*/
+        display: inline-block;
+        margin: 10px 0px;
+        border: 2px solid var(--outlineColor);
     }
 }
