@@ -1,6 +1,6 @@
 /* GENERAL */
 :root {
-    --outlineColor: #00ff21; /*#00ff21*/
+    --outlineColor: transparent; /*#00ff21*/
     --sectionHeight: 450px;
     --tanGold: #a1880c;
     --darkGreen: #163908;
@@ -26,7 +26,7 @@ body {
 }
 
 .item {
-    font-size: 18px;
+    font-size: 16px;
     height: 36px;
     width: 100%;
     margin: auto;
@@ -318,22 +318,14 @@ nav a {
 }
 
 .shopList {
-    width: 32.477136%;
+    width: 30%;
     display: inline-block;
     outline: 2px solid var(--outlineColor);
 }
 
 .shopList2 {
-    width: 49%;
+    width: 40%;
     display: inline-block;
-    outline: 2px solid var(--outlineColor);
-}
-
-.accessoryItem {
-    font-size: 18px;
-    height: 36px;
-    width: 100%;
-    margin: auto;
     outline: 2px solid var(--outlineColor);
 }
 
@@ -397,6 +389,14 @@ nav a {
             color: var(--tanGold);
             text-decoration: none;
         }
+
+    .item {
+        font-size: 10px;
+        height: 36px;
+        width: 100%;
+        margin: auto;
+        outline: 2px solid var(--outlineColor);
+    }
 
     li {
         /*  background-color: #ebebeb;
