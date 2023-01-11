@@ -77,6 +77,15 @@ body {
     outline: 2px solid var(--outlineColor);
 }
 
+.sloganHeader {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    outline: 2px solid var(--outlineColor);
+}
+
 /* NAVBAR */
 #navbar {
     background-color: var(--lightGrey);
@@ -238,23 +247,6 @@ nav a {
     outline: 2px solid var(--outlineColor);
 }
 
-#sloganHeader {
-    width: 100%;
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    outline: 2px solid var(--outlineColor);
-}
-
-#sectionTwoBody {
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
-    outline: 2px solid var(--outlineColor);
-}
-
 /*SECTION THREE*/
 #sectionThreeContainer {
     height: var(--sectionHeight);
@@ -343,13 +335,44 @@ nav a {
     outline: 2px solid var(--outlineColor);
 }
 
-/*Footer*/
+/*REPAIRS*/
+#repairsContainer {
+    height: 350px;
+    width: 100%;
+    margin: auto;
+    outline: 2px solid var(--outlineColor);
+}
+
+/*SCOOTERS*/
+
+#scooterContainer {
+    height: var(--sectionHeight);
+    width: 100%;
+    margin: auto;
+    outline: 2px solid var(--outlineColor);
+}
+
+
+/*FOOTER*/
 #footer {
     background-color: var(--darkGrey);
     outline: 2px solid var(--outlineColor);
 }
 
 /*Different Size Display*/
+
+@media (max-width: 825px) {
+
+    #sectOneHead {
+        font-family: 'Cinzel', serif;
+        color: var(--lightGrey);
+        font-size: 42px;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        outline: 2px solid var(--outlineColor);
+    }
+}
 @media (max-width: 600px) {
 
 
@@ -404,5 +427,15 @@ nav a {
         display: inline-block;
         margin: 10px 0px;
         border: 2px solid var(--outlineColor);
+    }
+
+    #sectOneHead {
+        font-family: 'Cinzel', serif;
+        color: var(--lightGrey);
+        font-size: 26px;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        outline: 2px solid var(--outlineColor);
     }
 }
