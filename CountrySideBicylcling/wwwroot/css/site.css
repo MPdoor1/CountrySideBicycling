@@ -57,6 +57,11 @@ body {
     outline: 2px solid var(--outlineColor);
 }
 
+.smallHead {
+    font-size: 24px;
+    outline: 2px solid var(--outlineColor);
+}
+
 .sectBody {
     display: flex;
     margin: auto;
@@ -309,11 +314,6 @@ nav a {
 
 #RiderGearBodySectTwo {
     width: 66%;
-    outline: 2px solid var(--outlineColor);
-}
-
-.shopHead {
-    font-size: 24px;
     outline: 2px solid var(--outlineColor);
 }
 
