@@ -337,21 +337,19 @@ nav a {
 
 /*REPAIRS*/
 #repairsContainer {
-    height: 350px;
-    width: 100%;
-    margin: auto;
-    outline: 2px solid var(--outlineColor);
-}
-
-/*SCOOTERS*/
-
-#scooterContainer {
     height: 400px;
     width: 100%;
     margin: auto;
     outline: 2px solid var(--outlineColor);
 }
 
+/*SCOOTERS*/
+#scooterContainer {
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    outline: 2px solid var(--outlineColor);
+}
 
 /*FOOTER*/
 #footer {
