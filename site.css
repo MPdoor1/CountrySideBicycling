@@ -281,7 +281,7 @@ nav a {
 #sectionOneContainer {
     height: var(--sectionHeight);
     width: 100%;
-    background-image: url("Images/RoadBike.JPG");
+    background-image: url("Images/RoadBike.jpg");
     background-size: cover;
     background-attachment: fixed;
     outline: 2px solid var(--outlineColor);
@@ -346,7 +346,7 @@ nav a {
 #ContactOneContainer {
     height: 250px;
     width: 100%;
-    background-image: url('Images/BannerImg.JPG');
+    background-image: url('Images/BannerImg.jpg');
     background-size: cover;
     background-attachment: fixed;
     outline: 2px solid var(--outlineColor);
