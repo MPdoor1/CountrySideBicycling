@@ -281,7 +281,7 @@ nav a {
 #sectionOneContainer {
     height: var(--sectionHeight);
     width: 100%;
-    background-image: url('/images/RoadBike.jpg');
+    background-image: url("Images/RoadBike.jpg");
     background-size: cover;
     background-attachment: fixed;
     outline: 2px solid var(--outlineColor);
