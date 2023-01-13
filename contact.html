@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CountrySideBicylcling</title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="site.css" asp-append-version="true" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a class="navLink" href="/Index.html">Home</a></li>
+                <li class="dropdown">
+                    <a id="bikeNavTitle">Bikes</a>
+                    <div class="dropdown-content">
+                            <a class="navLink" href="BMX.html">BMX</a>
+                            <a class="navLink" href="electricBike.html">Electric</a>
+                            <a class="navLink" href="hybrid.html">Hybrid</a>
+                            <a class="navLink" href="mountain.html">Mountain</a>
+                            <a class="navLink" href="road.html">Road</a>
+                            <a class="navLink" href="specialty.html">Specialty</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a id="scooterNavTitle">Scooters</a>
+                    <div class="dropdown-content">
+                        <a class="navLink" href="amish.html">Amish</a>
+                        <a class="navLink" href="canadian.html">Canadian</a>
+                        <a class="navLink" href="czechoslovakian.html">Czechoslovakian</a>
+                        <a class="navLink" href="electricScooter.html">Electric</a>
+                    </div>
+                </li>
+                <li><a class="navLink" href="repairs.html">Repairs</a></li>
+                <li><a class="navLink" href="shop.html">Shop</a></li>
+                <li><a class="navLink" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+<div id="ContactOneContainer">
+</div>
+<div style="height:25px;"></div>
+<div class="headCont">
+    <h3 class="head">Contact</h3>
+</div>
+<div style="height:25px;"></div>
+<div class="sectBody" >
+    <div class="sectOne">
+        <ul id="serviceList">
+            <li class="item" style="height:75px;"><div class="smallHead">Phone</div> 1+ 440-487-5018 </li>
+            <li class="item" style="height:75px;"><div class="smallHead">Email</div> CountrySideBicycling@gmail.com </li>
+            <li class="item" style="height:75px;"><div class="smallHead">Address</div> 8663 Cox Road, Windsor Ohio 44099 </li>
+            <li class="item" style="height:75px;">
+                <div class="smallHead">Areas</div>
+                <!-- @*Middlefield, Burton, Trumble, Chardon, Orwell, Geauga, Ashteabula, and surrounding areas and counties*@ -->
+                <div class="shopList2">
+                    <ul class="list">
+                        <li class="item">Middlefield</li>
+                        <li class="item">Burton</li>
+                        <li class="item">Trumble</li>
+                        <li class="item">Chardon</li>
+                    </ul>
+                </div>
+                <div class="shopList2">
+                    <ul class="list">
+                        <li class="item">Geauga</li>
+                        <li class="item">Ashteabula</li>
+                        <li class="item">Orwell</li>
+                        <li class="item">Nearby areas</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="sectTwo">
+        <a href="https://maps.app.goo.gl/CVknzW8uaeDBKsQ89"> <img src="/Images/SignImg.jpg" style="height:400px;" /></a>
+        <div style="height:50px;"></div>
+    </div>
+    
+</div>
+    <footer id="footer" class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - CountrySideBicylcling
+        </div>
+    </footer>
+
+
+    <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="site.js" asp-append-version="true"></script>
+</body>
+</html>
